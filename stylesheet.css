@@ -79,12 +79,23 @@ body {
     justify-content: space-around;
 }
 
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: clip;
+}
+
 .search_right img {
+    width: 100px;
+}
+
+/* .search_right img {
     width: 50px;
     height: 50px;
     overflow: hidden;
     border-radius: 50%;
-}
+} */
 
 input {
     padding: 0;
@@ -104,11 +115,22 @@ input {
     justify-content: space-between;
 }
 
-.name img {
+/* .name img {
     width: 50px;
     height: 50px;
     overflow: hidden;
     border-radius: 50%;
+} */
+
+.img_container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: clip;
+}
+
+.name img {
+    width: 100px;
 }
 
 .personal_account .name {
@@ -202,11 +224,16 @@ main .information {
     padding: 15px;
 }
 
-.img_container img {
+
+.img_container {
     width: 50px;
     height: 50px;
-    overflow: hidden;
     border-radius: 50%;
+    overflow: clip;
+}
+
+.img_container img {
+    width: 100px;
 }
 
 .trending .accounts {
