@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #e2e8f0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: auto;
+}
+
+/* --------dashboard-------- */
+
+.dashboard {
+    background-color: #0891b2;
+    width: 17%;
+    padding: 15px;
+    height: auto;
+}
+
+.dashboard > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.material-symbols-outlined {
+    color: #fff;
+    padding-right: 10px;
+}
+
+/* --------content-------- */
+
+
+.content {
+    width: 83%;
+}
+
+/* --------search row-------- */
+
+.search_row > * {
+    padding: 0;
+}
+
+.content header {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.search_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.search_left {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    color: black;
+}
+
+.search_right {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search_right img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+input {
+    padding: 0;
+}
+
+.search_row p {
+    padding: 0;
+    height: 20px;
+}
+
+/* --------personal account-------- */
+
+.personal_account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.personal_account .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personal_account .information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information > * {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 6px 30px ;
+    border-radius: 15px;
+    margin-right: 30px;
+    border: 0;
+    background-color: #0891b2;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* --------publications-------- */
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.publications {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+.publication_title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project {
+    background-color: #fff;
+    padding: 15px;
+}
+
+/* --------information-------- */
+
+
+main .information {
+    width: 33%;
+    margin-left: 10px;
+    margin-top: 48px;
+}
+
+.information .announcements {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0;
+
+}
+
+.maintance , .community, .policy {
+    height: 33%;
+}
+
+.maintance, .community {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.community, .policy {
+    padding-top: 10px;
+}
+
+.trending {
+    margin-top: 15px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.img_container img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.trending .accounts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
