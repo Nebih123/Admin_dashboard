@@ -29,6 +29,11 @@ body {
     font-weight: bold;
 }
 
+.dashboard .dashboard_title {
+    font-size: 25px;
+    margin: 0;
+}
+
 .material-symbols-outlined {
     color: #fff;
     padding-right: 10px;
