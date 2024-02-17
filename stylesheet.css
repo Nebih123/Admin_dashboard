@@ -201,6 +201,16 @@ main {
     justify-content: space-between;
 }
 
+.project, .announcements, .trending {
+    transition: transform 0.3s ease; /* Add transition for a smooth effect */
+}
+
+.project:hover,
+.announcements:hover,
+.trending:hover {
+    transform: scale(1.05); /* Scale down by 5% on hover */
+}
+
 .project_explanation .title {
     font-size: large;
     font-weight: bold;
